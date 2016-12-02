@@ -40,5 +40,4 @@ People: 31
    1 NA
 
 
-awk -F $'\t' '{ if ($3 == "gene"){ print $0; } }' final_Clean.gff | less
 
