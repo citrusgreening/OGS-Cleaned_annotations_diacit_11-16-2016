@@ -1,1 +1,44 @@
-15	acridge	External74	chriscor96c@aol.com	IRSC41	ai99@cornell.edu	BTI3	psh65@cornell.edu	BTI159	drnelson1@gmail.com	Expert1	johncmartin87@gmail.com	56	kvillalobosayala@gmail.com	IRSC2	tdshippy@gmail.com	KSU6	dandeavila@hotmail.com	IRSC2	gabedeavila@hotmail.com	IRSC13	davidh43@ksu.edu	KSU4	kshore023@ksu.edu	KSU1	sherrymiller@ksu.edu	KSU1	taylarrm@ksu.edu	KSU11	vguzman@ksu.edu	KSU77	belltn@mail.irsc.edu	IRSC5	mannhr@mail.irsc.edu	IRSC7	bullerkr@mail.uc.edu	Josh Benoit's course students6	ciolkeks@mail.uc.edu	Josh Benoit's course students1	dominimc@mail.uc.edu	Josh Benoit's course students9	mahonerw@mail.uc.edu	Josh Benoit's course students12	moorezr@mail.uc.edu	Josh Benoit's course students7	nandyash@mail.uc.edu	Josh Benoit's course students6	vanvooju@mail.uc.edu	Josh Benoit's course students1	yarmanjm@mail.uc.edu	Josh Benoit's course students7	ddixon@pugetsound.edu	BTI1	jscanlan@student.unimelb.edu.au	External16	TiziClauvis	External5	joshua.benoit@uc.edu	Josh Benoit's course students65	rosendaw@ucmail.uc.edu	Expert1	ychen	External
+9	acridge	External
+64	chriscor96c@aol.com	IRSC
+26	ai99@cornell.edu	BTI
+2	psh65@cornell.edu	BTI
+115	drnelson1@gmail.com	Expert
+1	johncmartin87@gmail.com	
+48	kvillalobosayala@gmail.com	IRSC
+2	tdshippy@gmail.com	KSU
+6	dandeavila@hotmail.com	IRSC
+2	gabedeavila@hotmail.com	IRSC
+11	davidh43@ksu.edu	KSU
+4	kshore023@ksu.edu	KSU
+1	sherrymiller@ksu.edu	KSU
+1	taylarrm@ksu.edu	KSU
+6	vguzman@ksu.edu	KSU
+75	belltn@mail.irsc.edu	IRSC
+5	mannhr@mail.irsc.edu	IRSC
+7	bullerkr@mail.uc.edu	Josh Benoit's course students
+6	ciolkeks@mail.uc.edu	Josh Benoit's course students
+1	dominimc@mail.uc.edu	Josh Benoit's course students
+9	mahonerw@mail.uc.edu	Josh Benoit's course students
+12	moorezr@mail.uc.edu	Josh Benoit's course students
+7	nandyash@mail.uc.edu	Josh Benoit's course students
+6	vanvooju@mail.uc.edu	Josh Benoit's course students
+1	yarmanjm@mail.uc.edu	Josh Benoit's course students
+7	ddixon@pugetsound.edu	BTI
+1	jscanlan@student.unimelb.edu.au	External
+12	TiziClauvis	External
+5	joshua.benoit@uc.edu	Josh Benoit's course students
+65	rosendaw@ucmail.uc.edu	Expert
+1	ychen	External
+
+People: 31
+   3 BTI
+   2 Expert
+   4 External
+   6 IRSC
+   9 Josh Benoit's course students
+   6 KSU
+   1 NA
+
+
+awk -F $'\t' '{ if ($3 == "gene"){ print $0; } }' final_Clean.gff | less
+
