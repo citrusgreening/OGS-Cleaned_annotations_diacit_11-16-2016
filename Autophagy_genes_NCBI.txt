@@ -1,0 +1,16 @@
+NCBI	Symbol	Name
+XP_008477352	Atg1	Atg1 Serine/threonine-protein kinase N
+XP_008486870	Atg10	Atg10 Ubiquitin like conjugating enzyme
+XP_008472596	Atg101	Atg101 Autophagy-related protein
+XP_008468708	Atg13	Atg13 Autophagy-related protein 13
+XP_008479241	Atg16	Atg16 Autophagy-related protein 16-1
+XP_008469662	Atg17	Atg17 RB1-inducible coiled-coil protein 1
+XP_008476026	Atg18	Atg18 WD repeat domain phosphoinositide-interacting protein 2
+XP_008482845	Atg2	Atg2 Autophagy-related protein 2-like protein B
+XP_008480509	Atg3	Atg3 Autophagy-related protein 3
+XP_008483713	Atg4	Atg4 Cysteine protease ATG4B
+XP_008475187	Atg5	Atg5 Autophagy protein 5
+XP_008474622	Atg6	Atg6 Beclin-1-like protein
+XP_008477335	Atg7	Atg7 Ubiquitin-like modifier-activating enzyme ATG7
+XP_008471089	Atg8	Atg8 Adenosine monophosphate-protein transferase FICD
+XP_008486164	Atg9	Atg9 Autophagy-related protein 9A
